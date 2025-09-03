@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2025/09/02/test/"/>
+      <url>/2025/09/02/test/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="脱机安装"><a href="#脱机安装" class="headerlink" title="脱机安装"></a>脱机安装</h2><p>若要脱机安装 WSL，需要执行以下步骤：</p><ul><li>从 <a href="https://github.com/microsoft/wsl/releases">GitHub 发布页</a>下载并安装最新的 WSL MSI 包</li><li>使用管理员权限打开 PowerShell 窗口，并运行 <code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code> 以启用虚拟机平台可选组件。 可能需要重新启动计算机才能生效。</li><li>通过 .wsl 文件安装分发版。 可以在所选发行版 <a href="https://github.com/microsoft/WSL/blob/master/distributions/DistributionInfo.json">的DistributionInfo.json</a> 中找到用于下载这些文件的 URL。</li></ul><p><img src="https://github.com/shutterbugger/client_blog_images/raw/main/Qexo/25/9/image_ffa9c4cf34b1e6935a546a5d1e90823c.png" alt="test"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> default </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>title</title>
       <link href="/2025/08/11/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
       <url>/2025/08/11/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
